@@ -4,7 +4,7 @@ const FULL_TEXT = 'I MISS YOU ALOT';
 
 const MissYouBanner: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
-  const [isTypingComplete, setIsTypingComplete] = useState(false);
+  const [, setIsTypingComplete] = useState(false);
 
   useEffect(() => {
     let currentIndex = 0;
